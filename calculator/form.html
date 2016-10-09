@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Калькулятор своими руками</title>
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+	<form class="contact_form" action="calc.php" method="post" name="contact_form">
+		<ul>
+			<h2>Калькулятор</h2>
+			<li>
+				<input type="number" name="firstInput" step="any" placeholder="Введите первое число" required>
+			</li>
+			<li>
+				<label for="operation">Выберите орерацию</label><br/>
+				<select name="operation" id="operation">
+					<option value="+">+</option>
+					<option value="-">-</option>
+					<option value="*">*</option>
+					<option value="/">/</option>
+				</select>
+			</li>
+			<li>
+				<input type="number" name="secondInput" step="any" placeholder="Введите второе число" required>
+			</li>
+			<li>
+				<button class="submit" type="submit">=</button>
+			</li>
+		</ul>
+	</form>
+</body>
+</html>
