@@ -10,5 +10,3 @@ function readDirectoryFiles()
 		echo $filename . "<br>";
 	}
 }
-
-echo readDirectoryFiles();
