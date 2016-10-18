@@ -2,9 +2,8 @@
 
 function readDirectoryFiles()
 {
-	$dir = "img/";
+	$dir = __DIR__ . '\img';
 	$files = array_diff(scandir($dir), array('.', '..'));
-//	echo "Файлы папки $dir" . "<br>";
 	foreach ($files as $i => $filename) {
 		echo "<p>$filename</p>";
 	}
