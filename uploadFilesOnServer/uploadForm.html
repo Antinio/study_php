@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Загрузка файлов на сервер</title>
+</head>
+<body>
+<form action="/studyphp/uploadFilesOnServer/uploadFiles.php" enctype="multipart/form-data" method="post">
+	<input type="hidden" name="MAX_FILE_SIZE" value="30000">
+	<p>Загрузка файла: <input type="file" name="userFile">
+	<input type="submit" value="Загрузить!"></p>
+</form>
+</body>
+</html>
