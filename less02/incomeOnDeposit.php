@@ -18,6 +18,7 @@ if ($isEmpty == false) {
 	$annual_interest = 0;
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
